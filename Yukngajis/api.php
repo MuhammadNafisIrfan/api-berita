@@ -68,9 +68,8 @@
 
     while($ngaji = mysqli_fetch_assoc($query_con)){
 
-        $row['paket_perbulan'] = $ngaji['paket_perbulan'];
-        $row['paket_persemester'] = $ngaji['paket_persemester'];
-        $row['paket_pertahun'] = $ngaji['paket_pertahun'];
+        $row['sekali_pertemuan'] = $ngaji['sekali_pertemuan'];
+        
         
 
     array_push($jsonObj,$row);
@@ -94,12 +93,8 @@ die();
 
     while($ngaji = mysqli_fetch_assoc($query_con)){
 
-        $row['jumlah_anggota'] = $ngaji['jumlah_anggota'];
-        $row['paket_perbulan'] = $ngaji['paket_perbulan'];
-        $row['paket_persemester'] = $ngaji['paket_persemester'];
-        $row['paket_pertahun'] = $ngaji['paket_pertahun'];
-        
-
+        $row['sekali_pertemuan'] = $ngaji['sekali_pertemuan'];
+       
     array_push($jsonObj,$row);
 
 }
@@ -121,12 +116,8 @@ die();
 
     while($ngaji = mysqli_fetch_assoc($query_con)){
 
-        $row['jumlah_anggota'] = $ngaji['jumlah_anggota'];
-        $row['paket_perbulan'] = $ngaji['paket_perbulan'];
-        $row['paket_persemester'] = $ngaji['paket_persemester'];
-        $row['paket_pertahun'] = $ngaji['paket_pertahun'];
-        
-
+        $row['sekali_pertemuan'] = $ngaji['sekali_pertemuan'];
+       
     array_push($jsonObj,$row);
 
 }
